@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="287.0" prefWidth="248.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trucks.truckers4.Controllers.TruckCreationView">
+    <children>
+        <Label alignment="CENTER" layoutX="10.0" layoutY="14.0" text="Truck" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+            <font>
+                <Font name="Cooper Black" size="31.0" />
+            </font>
+        </Label>
+        <TextField fx:id="modelField" layoutX="53.0" layoutY="67.0" promptText="Model..." AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="70.0">
+            <font>
+                <Font name="System Italic" size="12.0" />
+            </font>
+        </TextField>
+        <Button fx:id="actionButton" layoutX="90.0" layoutY="188.0" mnemonicParsing="false" onAction="#addTruck" text="Add truck" AnchorPane.leftAnchor="90.0" AnchorPane.topAnchor="188.0" />
+        <Button fx:id="backButton" layoutX="104.0" layoutY="230.0" mnemonicParsing="false" onAction="#openHomePage" text="Back" AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="230.0" />
+        <TextField fx:id="plateNumberField" layoutX="50.0" layoutY="110.0" promptText="Plate number..." AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="110.0">
+            <font>
+                <Font name="System Italic" size="12.0" />
+            </font></TextField>
+        <TextField fx:id="weightField" layoutX="52.0" layoutY="149.0" promptText="Weight" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="150.0">
+            <font>
+                <Font name="System Italic" size="12.0" />
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>

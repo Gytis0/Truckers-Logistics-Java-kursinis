@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="291.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trucks.truckers4.Controllers.RegistrationView">
+    <children>
+        <Label alignment="CENTER" layoutX="10.0" layoutY="14.0" text="Truckers" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+            <font>
+                <Font name="Cooper Black" size="31.0" />
+            </font>
+        </Label>
+        <TextField fx:id="usernameField" layoutX="53.0" layoutY="67.0" promptText="Username..." AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="70.0">
+            <font>
+                <Font name="System Italic" size="12.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="passwordField" layoutX="293.0" layoutY="67.0" promptText="Password..." AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="70.0">
+            <font>
+                <Font name="System Italic" size="12.0" />
+            </font>
+        </PasswordField>
+        <Button fx:id="signUpButton" layoutX="54.0" layoutY="237.0" mnemonicParsing="false" onAction="#register" text="Sign Up" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="240.0" />
+        <Button fx:id="backButton" layoutX="313.0" layoutY="240.0" mnemonicParsing="false" onAction="#openLogin" text="Back to log in" AnchorPane.leftAnchor="313.0" AnchorPane.topAnchor="240.0" />
+      <TextField fx:id="nameField" layoutX="50.0" layoutY="110.0" promptText="Name.." AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="surnameField" layoutX="254.0" layoutY="110.0" promptText="Surname..." AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="phoneField" layoutX="52.0" layoutY="149.0" promptText="Phone number..." AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailField" layoutX="254.0" layoutY="150.0" promptText="Email..." AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="isManager" layoutX="254.0" layoutY="199.0" mnemonicParsing="false" text="Manager" AnchorPane.topAnchor="190.0" />
+      <DatePicker fx:id="dateField" layoutX="37.0" layoutY="186.0" promptText="Birth date..." AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="190.0" />
+    </children>
+</AnchorPane>

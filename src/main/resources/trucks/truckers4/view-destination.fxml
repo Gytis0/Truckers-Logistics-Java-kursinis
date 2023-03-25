@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="495.0" prefWidth="567.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trucks.truckers4.Controllers.ViewDestination">
+    <children>
+        <Label alignment="CENTER" prefHeight="36.0" prefWidth="248.0" text="Destination view" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="14.0" layoutY="163.0" prefHeight="25.0" prefWidth="262.0" text="Managers:" underline="true" AnchorPane.bottomAnchor="307.0" AnchorPane.leftAnchor="15.0">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="15.0" layoutY="46.0" prefWidth="75.0" text="Driver:" AnchorPane.leftAnchor="15.0">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="15.0" layoutY="71.0" prefWidth="75.0" text="Truck:" AnchorPane.leftAnchor="15.0">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="15.0" layoutY="96.0" prefWidth="75.0" text="Cargo:" AnchorPane.leftAnchor="15.0">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="15.0" layoutY="121.0" prefWidth="75.0" text="Status:" AnchorPane.leftAnchor="15.0">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="driverValue" alignment="CENTER" layoutX="90.0" layoutY="46.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="15.0">
+            <font>
+                <Font name="System Bold Italic" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="truckValue" alignment="CENTER" layoutX="90.0" layoutY="71.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="15.0">
+            <font>
+                <Font name="System Bold Italic" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="cargoValue" alignment="CENTER" layoutX="90.0" layoutY="96.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="15.0">
+            <font>
+                <Font name="System Bold Italic" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="statusValue" alignment="CENTER" layoutX="90.0" layoutY="121.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="15.0">
+            <font>
+                <Font name="System Bold Italic" size="16.0" />
+            </font>
+        </Label>
+      <ListView fx:id="checkpointList" layoutX="290.0" layoutY="192.0" prefHeight="287.0" prefWidth="262.0" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Label alignment="CENTER" layoutX="290.0" layoutY="163.0" prefHeight="25.0" prefWidth="262.0" text="Checkpoints:" textAlignment="CENTER" underline="true" AnchorPane.bottomAnchor="307.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="managersList" layoutX="14.0" layoutY="192.0" prefHeight="287.0" prefWidth="262.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" />
+    </children>
+</AnchorPane>

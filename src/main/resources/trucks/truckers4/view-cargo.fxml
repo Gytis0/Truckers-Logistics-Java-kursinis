@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="183.0" prefWidth="191.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trucks.truckers4.Controllers.ViewCargo">
+   <children>
+      <Label alignment="CENTER" prefHeight="36.0" prefWidth="248.0" text="Cargo view" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="51.0" prefWidth="60.0" text="Name:" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="76.0" prefWidth="60.0" text="Weight:" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="101.0" prefWidth="60.0" text="Width:" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="126.0" prefWidth="60.0" text="Length:" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="151.0" prefWidth="60.0" text="Height:" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameValue" alignment="CENTER" layoutX="70.0" layoutY="51.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="weightValue" alignment="CENTER" layoutX="81.0" layoutY="76.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="widthValue" alignment="CENTER" layoutX="81.0" layoutY="101.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lengthValue" alignment="CENTER" layoutX="81.0" layoutY="126.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="heightValue" alignment="CENTER" layoutX="81.0" layoutY="151.0" prefWidth="70.0" text="{value}" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
